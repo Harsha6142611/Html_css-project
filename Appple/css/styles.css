@@ -1,0 +1,199 @@
+#title
+{
+  background-color: #ff4c68 ;
+}
+h1
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+h3
+{
+  font-family: 'Montserrat', sans-serif;
+  /* font-size: 1.5rem; */
+}
+p
+{
+  width:80%;
+  margin:0 auto;
+  color: #8f8f8f;
+}
+.navbar-brand
+{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+}
+.heading
+{
+  padding-bottom: 5rem;
+}
+.nav-item
+{
+  padding: 0% 20px;
+}
+.nav-link
+{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: normal;
+}
+.container-fluid
+{
+  padding: 3% 15%;
+}
+
+.iphone6
+{
+  width: 20%;
+  transform:rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+/* .iphone6:hover
+{
+  transform: rotate(-0deg);
+  position: ;
+} */
+.down_button
+{
+  margin: 5% 3% 5% 0%;
+}
+/* features */
+#features
+{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+.h3_p
+{
+  margin:0 auto;
+}
+.logos
+{
+  font-size: 50px;
+  margin: 10px auto;
+  color: #ef8172;
+}
+.logos:hover
+{
+  color: #ff4c68;
+  /* transform: rotate(20deg); */
+  font-size: 60px;
+}
+#testimonials
+{
+
+  text-align: center;
+  background-color:#ff4c68;
+  color: #fff;
+}
+.carousel-item
+{
+  padding: 7% 15%;
+}
+.I-no
+{
+  margin: 0 auto;
+  width: 70%;
+  font-family: 'Montserrat', sans-serif;
+}
+.dog-image,.testimonial-image
+{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press
+{
+  background-color: #ff4c68;
+  padding: 5% 3%;
+  text-align: center;
+
+}
+.press_image
+{
+  margin: 0 10px;
+}
+.subscribition
+{
+  padding:0 3%;
+  text-align: center;
+  /* border: 1px solid black; */
+}
+@media (max-width: 995px)
+{
+  .iphone6
+  {
+    position: static;
+    transform: rotate(0);
+
+  }
+  #title
+  {
+    text-align: center;
+  }
+}
+#cta
+{
+  background-color: #ff4c68;
+  padding: 7% 5%;
+  text-align: center;
+}
+.findlove
+{
+ font-size: 3rem; 
+ color: #fff;
+ margin: 0 auto;
+ width: 60%;
+}
+#footer
+{
+  margin: 8% auto 3% auto;
+  text-align: center;
+}
+.footericon
+{
+  margin: 0 1%;
+  font-size: medium;
+  color: #ff4c68;
+}
+.Copyright
+{
+  font-size: 1rem;
+  font-family: 'Ubuntu', sans-serif;
+  color: #8f8f8f;
+}
+.aplan
+{
+  width: 50%;
+  text-align: center;
+  margin: 5% auto;
+}
+#pricing
+{
+  margin: 5% auto;
+}
+.bottotop
+{
+  background-color: #ef8172;
+  /* color: #fff; */
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  left: 95%;
+  top: 90%;
+  z-index: 5;
+  border-radius: 50%;
+  
+}
+.toparrow
+{
+  color: #fff;
+  margin-left: 40%;
+  margin-top: 35%;
+}
